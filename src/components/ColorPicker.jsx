@@ -1,3 +1,5 @@
-export default function ColorPicker() {
+function ColorPicker() {
   return <div>ColorPicker</div>;
 }
+
+export default ColorPicker;
