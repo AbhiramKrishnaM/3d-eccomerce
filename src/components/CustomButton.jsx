@@ -24,7 +24,7 @@ function CustomButton({ title, type, customStyle, handleClick }) {
 
   return (
     <button
-      className={`px-4 py-2.5 flex-1 rounded-md ${customStyle}`}
+      className={`px-2 py-1.5 flex-1 rounded-md ${customStyle}`}
       style={generateStyles(type)}
       onClick={handleClick}
     >
