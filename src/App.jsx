@@ -1,5 +1,5 @@
 function App() {
-  return <div></div>;
+  return <div className="text-3xl">3d Ecommerce!</div>;
 }
 
 export default App;
