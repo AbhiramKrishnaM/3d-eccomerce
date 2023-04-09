@@ -6,7 +6,19 @@ import CameraRig from "./CameraRig";
 import Shirt from "./Shirt";
 
 function CanvasModel() {
-  return <div>CanvasModel</div>;
+  return (
+    <Canvas>
+      <ambientLight intensity={0.5} />
+      <Environment preset="city" />
+
+      <CameraRig>
+        {/* <BackDrop /> */}
+        <Center>
+          <Shirt />
+        </Center>
+      </CameraRig>
+    </Canvas>
+  );
 }
 
 export default CanvasModel;
