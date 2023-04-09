@@ -19,8 +19,8 @@ function BackDrop() {
       <RandomizedLight
         amount={4}
         radius={9}
-        intensity={0.55}
-        ambient={0.25}
+        intensity={0.6}
+        ambient={0.7}
         position={[5, 5, -10]}
       />
       <RandomizedLight
